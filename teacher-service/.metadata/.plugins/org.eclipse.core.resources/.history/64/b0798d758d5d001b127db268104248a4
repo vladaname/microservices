@@ -1,0 +1,5 @@
+package com.microservice.teacher.VO;
+
+public class Department {
+
+}

@@ -1,0 +1,5 @@
+package com.microservice.teacher.controllers;
+
+public class TeacherController {
+
+}

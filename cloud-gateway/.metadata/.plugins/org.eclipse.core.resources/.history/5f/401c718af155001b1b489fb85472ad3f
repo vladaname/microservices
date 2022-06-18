@@ -1,0 +1,12 @@
+package com.microservice.gateway;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FallBackMethodController {
+	
+	public String userServiceFallBackMethod() {
+		return "User Service is tajking longer then expected." + "Please try again later";
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.microservice.gateway;
+
+public class FallBackMethodController {
+
+}

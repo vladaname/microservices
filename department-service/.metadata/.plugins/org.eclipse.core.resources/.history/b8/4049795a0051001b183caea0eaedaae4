@@ -1,0 +1,5 @@
+package com.microservice.department.repositorty;
+
+public interface DepartmentRepository {
+
+}

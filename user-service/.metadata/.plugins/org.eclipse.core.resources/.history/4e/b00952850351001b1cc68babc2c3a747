@@ -1,0 +1,19 @@
+package com.microservice.user;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.microservice.user.VO.ResponseTemplate;
+
+@SpringBootApplication
+public class UserServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UserServiceApplication.class, args);
+	}
+	
+	ResponseTemplate responseTemplate() {
+		return new ResponseTemplate();
+	}
+
+}

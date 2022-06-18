@@ -1,0 +1,14 @@
+package com.microservice.gateway;
+
+import org.checkerframework.common.reflection.qual.GetMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FallBackMethodController {
+	
+	@GetMethod("/userServiceFallBack")
+	public String userServiceFallBackMethod() {
+		return "User Service is tajking longer then expected." + "Please try again later";
+	}
+
+}

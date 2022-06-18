@@ -1,0 +1,22 @@
+package com.microservice.department.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.microservice.department.entity.Department;
+
+@RestController
+@RequestMapping("/departments")
+public class DepartmentController {
+	@Autowired
+	private
+	
+	@PostMapping("/")
+	public Department saveDepartment() {
+		return 
+		
+	}
+
+}

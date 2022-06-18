@@ -1,0 +1,9 @@
+package com.microservice.teacher.service;
+
+import com.microservice.teacher.entity.Teacher;
+
+public interface TeacherService {
+
+	Teacher save(Teacher teacher);
+
+}

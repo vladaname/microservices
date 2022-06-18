@@ -1,0 +1,5 @@
+package com.microservice.user.impl;
+
+public class UserServiceImpl {
+
+}

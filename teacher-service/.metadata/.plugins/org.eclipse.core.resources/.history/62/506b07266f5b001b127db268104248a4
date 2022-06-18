@@ -1,0 +1,5 @@
+package com.microservice.teacher.service;
+
+public interface TeacherService {
+
+}

@@ -1,0 +1,5 @@
+package com.microservice.department.impl;
+
+public class DepartmentServiceImpl {
+
+}

@@ -1,0 +1,10 @@
+package com.microservice.user.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.microservice.user.service.UserService;
+
+@Service
+public class UserServiceImpl implements UserService{
+
+}

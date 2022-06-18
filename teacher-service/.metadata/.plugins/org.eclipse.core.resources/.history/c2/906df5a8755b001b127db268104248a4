@@ -1,0 +1,22 @@
+package com.microservice.teacher.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.microservice.teacher.entity.Teacher;
+import com.microservice.teacher.repositorty.TeacherRepository;
+import com.microservice.teacher.service.TeacherService;
+
+@Service
+public class TeacherServiceImpl implements TeacherService{
+	
+	@Autowired
+	private TeacherRepository teacherRepositorty;
+
+	@Override
+	public Teacher save(Teacher teacher) {
+		
+		return teacherRepositorty.save(teacher);
+	}
+
+}
